@@ -1,0 +1,24 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.synchro-food.co.jp/shinomiya/sass.git",
+  "author": "shinomiya",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "sass": "gulp sass",
+    "html:inline": "gulp inline-css",
+    "htmlMail:min": "gulp minify-htmlMail",
+    "htmlMail": "gulp htmlMail",
+    "watch": "gulp watch"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-inline-css": "^3.5.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^4.0.2"
+  }
+}
